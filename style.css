@@ -4,11 +4,18 @@ html{
 body {
     font-family: 'Poppins', sans-serif;
     color: #DDE6ED;
+   
+    overflow-x: hidden;
+}
+.background{
     background-image: url(bg.png);
+    position: absolute;
     background-attachment:scroll;
     background-repeat: no-repeat;
     background-size: cover;
-    overflow-x: hidden;
+    z-index: -1;
+    width: 100%;
+    height: 80rem;
 }
 
 .left {
@@ -253,6 +260,11 @@ footer{
     html{
         font-size: 25%;
     }
+    .background{
+  
+        height: 200rem;
+        
+    }
     nav{
         height: 18rem;
         position: fixed ;
@@ -286,14 +298,14 @@ footer{
         background-size:auto
     }
     .btn{
-        margin-top: 25rem;
+        margin-top: 40rem;
         margin-left: 39rem;
         font-size: 6rem;
     }
     
 .aboutme{
     position: absolute;
-    margin-top: 245rem;
+    margin-top: 265rem;
     text-align: center;
     width: 90%;
     margin-left: 2rem;
@@ -301,21 +313,25 @@ footer{
     font-size: 3.9rem;
 }
 .aboutme2{
-    margin-top: 145rem;
+    margin-top: 165rem;
     font-size: 5rem;
     left: 38rem;
 }
 .pic{
-    margin-top: 185rem;
+    margin-top: 205rem;
     margin-bottom: 50rem;
     margin-left: 30rem;
     float: left;
     display: block;
 }
 footer{
-    top: 370rem;
+    top: 385rem;
     width: 100%;
     font-size: 3rem;
+}
+.socialmedia {
+    width: 5rem;
+    height: 5rem;
 }
   }
 
