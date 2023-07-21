@@ -1,0 +1,212 @@
+html{
+    font-size: 62.5%;
+   
+}
+body{
+    overflow-x: hidden;
+    font-family: 'Poppins', sans-serif;
+
+}
+.left {
+    font-size: 3.5rem;
+    color: #DDE6ED;
+}
+.right {
+    font-size: 2.4rem;
+}
+* {
+    margin: 0;
+    padding: 0;
+
+   
+    
+}
+nav {
+    display: flex;
+    position: fixed ;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+    height: 10rem;
+    background-color: #032036;
+    z-index: 9999;
+
+}   
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+nav ul li {
+    list-style: none;
+    margin: 0 3rem;
+}
+nav ul li a {
+    text-decoration: none;
+    color: #DDE6ED;
+    
+}
+nav ul li a:hover {
+    text-decoration: none;
+    text-shadow: 0 0 .5rem #00aaff, 0 0 1rem #00aaff, 0 0 1.5rem #00aaff, 0 0 2rem #00aaff, 0 0 3rem #00aaff, 0 0 4rem #00aaff, 0 0 5.5rem #00aaff, 0 0 7.5rem #00aaff;
+    font-size: 2.6rem;
+}
+.container1{
+    margin-top: 9rem;
+   
+}
+body{
+    background-color: #d6dee4;
+}
+.leftpic img{
+    height: 30rem;
+    width: 30rem;
+    overflow: hidden;
+    margin: 2rem 2rem;
+    border-radius: 30%;
+    border: #032036 solid .4rem;
+    float: left;
+
+}
+
+.leftpic h1{
+    padding-top: 12rem;
+}
+.leftpic p{
+    padding: 1rem;
+    width: 70%;
+    font-size: 1.7rem;
+  
+   
+}
+
+.rightpic img{
+    height: 30rem;
+    width: 30rem;
+    overflow: hidden;
+    margin: 2rem 2rem;
+    border-radius: 30%;
+    border: #032036 solid .4rem;
+    float: right;
+}
+.rightpic h1{
+    padding-top: 12rem;
+    text-align: right;
+}
+.rightpic p{
+    margin-left: 35rem;
+    padding: 2rem;
+    width: 60%;
+    font-size: 1.7rem;
+   
+}
+h1{
+    color: #032036;
+    font-size: 3rem;
+}
+
+
+
+@media only screen and ( (min-width: 481px) and (max-width: 600px)){
+    html{
+        font-size: 35%;
+    }
+    .leftpic  h1{
+        font-size: 5rem;
+    
+    }
+    .leftpic p{
+        padding: 1rem;
+        font-size: 3rem; 
+    }
+    .leftpic img{
+        height: 40rem;
+        margin: 13rem 2rem;
+        width: 35rem;
+    }
+    .rightpic  h1{
+        font-size: 5rem;
+
+    }
+    .rightpic p{
+        padding: 1rem; 
+        font-size: 3rem;
+        margin-left: 15rem;
+    }
+    .rightpic img{
+        height: 40rem;
+        width: 35rem;
+        margin: 13rem 2rem;
+    }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 850px){
+    html{
+        font-size: 48%;
+    }
+    .leftpic  h1{
+        font-size: 5rem;
+    
+    }
+    .leftpic p{
+        padding: 1rem;
+        font-size: 3rem; 
+    }
+    .leftpic img{
+        height: 40rem;
+        margin: 13rem 2rem;
+        width: 35rem;
+    }
+    .rightpic  h1{
+        font-size: 5rem;
+        text-align:right;
+    }
+    .rightpic p{
+        padding: 1rem; 
+        font-size: 3rem;
+        margin-left: 15rem;
+    }
+    .rightpic img{
+        height: 40rem;
+        width: 35rem;
+        margin: 13rem 2rem;
+    }
+}
+@media only screen and (min-width: 200px) and (max-width: 480px){
+    html{
+        font-size: 25%;
+    }
+    nav {
+        height: 15rem;
+      }
+    .leftpic  h1{
+        font-size: 5rem;
+    }
+    .leftpic p{
+        padding: 2rem;
+        
+        font-size: 4rem; 
+        width: 100%;
+    }
+    .leftpic img{
+        height: 40rem;
+        border: #032036 solid .8rem;
+        margin: 13rem 0rem;
+        width: 35rem;
+    }
+    .rightpic  h1{
+        font-size: 5rem;
+    }
+    .rightpic p{
+        padding: 0rem; 
+        font-size: 4rem;
+        margin-left: 13rem;
+        width: 80%;
+    }
+    .rightpic img{
+        height: 40rem;
+        border: #032036 solid .8rem;
+        width: 35rem;
+        margin: 13rem 0rem;
+    }
+
+}
