@@ -1,0 +1,347 @@
+html{
+    font-size: 62.5%;
+  }
+body {
+    font-family: 'Poppins', sans-serif;
+    color: #DDE6ED;
+   
+    overflow-x: hidden;
+}
+.background{
+    background-image: url(bg.png);
+    position: absolute;
+    background-attachment:scroll;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+    width: 100%;
+    height: 80rem;
+}
+
+.left {
+    font-size: 3.5rem;
+    color: #DDE6ED;
+}
+.right {
+    font-size: 2.2rem;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+nav {
+    display: flex;
+    position: fixed ;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+    height: 10rem;
+    background-color: #032036;
+    z-index: 9999;
+
+    
+}
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+nav ul li {
+    list-style: none;
+    margin: 0 3rem;
+}
+nav ul li a {
+    text-decoration: none;
+    color: #DDE6ED;
+}
+nav ul li a:hover {
+    text-decoration: none;
+    text-shadow: 0 0 .5rem #00aaff, 0 0 1rem #00aaff, 0 0 1.5rem #00aaff, 0 0 2rem #00aaff, 0 0 3rem #00aaff, 0 0 4rem #00aaff, 0 0 5.5rem #00aaff, 0 0 7.5rem #00aaff;
+    font-size: 2.6rem;
+}
+.leftsection {
+    font-size: 4rem;
+    margin-top: 25rem;
+    margin-left: 5rem;
+    position: absolute;
+    display: inline;
+    width: 50%;
+    color: rgb(214, 167, 80);
+}
+span {
+    font-size: 5.3rem;
+    color: white;
+    text-shadow: 0 0 .5rem #00aaff, 0 0 1rem #00aaff, 0 0 1.5rem #00aaff, 0 0 2rem #00aaff, 0 0 3rem #00aaff, 0 0 4rem #00aaff, 0 0 5.5rem #00aaff, 0 0 7.5rem #00aaff;
+}
+img {
+    width: 80rem;
+    margin-left: 78rem;
+}
+#element {
+    position: absolute;
+    margin-left: 12rem;
+    top: 45rem;
+    color: white;
+    font-size: 4.6rem;
+}
+.btn {
+    margin-top: 15rem;
+    margin-left: 29rem;
+    background: #346bd9;
+    box-shadow: 0 0 .5rem #00aaff, 0 0 1rem #00aaff, 0 0 1.5rem #00aaff, 0 0 2rem #00aaff, 0 0 3rem #00aaff, 0 0 4rem #00aaff, 0 0 5.5rem #00aaff, 0 0 7.5rem #00aaff;
+    text-shadow: 0 0 .5rem #00aaff, 0 0 1rem #00aaff, 0 0 1.5rem #00aaff, 0 0 2rem #00aaff, 0 0 3rem #00aaff, 0 0 4rem #00aaff, 0 0 5.5rem #00aaff, 0 0 7.5rem #00aaff;
+    background-image: -webkit-linear-gradient(top, #346bd9, #2980b9);
+    background-image: -moz-linear-gradient(top, #346bd9, #2980b9);
+    background-image: -ms-linear-gradient(top, #346bd9, #2980b9);
+    background-image: -o-linear-gradient(top, #346bd9, #2980b9);
+    background-image: linear-gradient(to bottom, #346bd9, #2980b9);
+    -webkit-border-radius: 19;
+    -moz-border-radius: 19;
+    border-radius: 1.9rem;
+    color: #f5f2f5;
+    font-size: 3rem;
+    padding: 1rem 2rem 1rem 2rem;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #3cb0fd;
+    text-decoration: none;
+  }
+
+.pic{
+    width: 40rem;
+    position: absolute;
+    border: 5px solid black ;
+    border-radius: 50%;
+    margin-top: 100rem;
+    margin-bottom: 50rem;
+    margin-left: 5rem;
+    float: left;
+}
+
+
+.aboutme{
+    position: absolute;
+    margin-top: 94rem;
+    margin-left: 60rem;
+    font-size: 2.3rem;
+    color: black;
+    width: 50%;
+}
+.aboutme2{
+    position: absolute;
+    color: black;
+    font-size: 2.5rem;
+    top: 90rem;
+    left: 60rem;
+    
+}
+
+footer {
+    position: absolute;
+    background-color: #f2f2f2;
+    padding: 2rem 0;
+    top: 150rem;
+    width: 100%;
+    background-image: url(all\ background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    font-size: 1.5rem;
+  }
+  
+
+  
+  .socialmedia {
+    width: 3rem;
+    height: 3rem;
+    position: relative;
+   margin-left: 0px;
+   background-color: white;
+   margin: 1rem;
+    /* margin-right: 10px; */
+    
+  }
+
+  @media only screen and (max-width: 390px){
+    html{
+        font-size: 35%;
+    }
+    nav{
+        height: 13rem;
+        position: fixed ;
+    }
+    nav ul li{
+        margin: 0 1rem;
+        font-size: 1.8rem;
+       
+    }
+    span{
+        font-size: 6.8rem;
+    }
+    #element {
+        position: absolute;
+        margin-left: 3rem;
+        top: 95rem;
+        color: white;
+        font-size: 6.4rem;
+    }
+   
+    .leftsection{
+        width: 100%;
+        margin-top: 35rem;
+        font-size: 6.3rem;
+    }
+    .background{
+        height: 130rem; 
+        width: 100%; 
+    }
+    
+.aboutme{
+    position: absolute;
+    margin-top: 190rem;
+    width: 100%;
+    margin-left: 2rem;
+    display: block;
+    font-size: 2.9rem;
+}
+.aboutme2{
+    margin-top: 92rem;
+    font-size: 3rem;
+    left: 28rem;
+}
+.pic{
+    margin-top: 130rem;
+    margin-bottom: 50rem;
+    margin-left: 15rem;
+    float: left;
+    display: block;
+}
+footer{
+    top: 280rem;
+}
+ 
+  }
+  
+  @media only screen and (min-width: 601px) and (max-width: 850px){
+    html{
+        font-size: 48%;
+      }
+      body{
+        background-size:110%;
+       
+      }
+   
+      #element {
+        position: absolute;
+        margin-left: rem;
+        top: 44rem;
+        color: white;
+        font-size: 6rem;
+    }
+    .aboutme{
+        margin-top: 75rem;
+        margin-left: 50rem;
+        display: block;
+        font-size: 2.5rem;
+    }
+    .aboutme2{
+        top: 68rem;
+        font-size: 3rem;
+        left: 49rem;
+    }
+    .pic{
+        margin-top: 90rem;
+    }
+    footer{
+        top: 169rem;
+        font-size: 2rem;
+    }
+     
+  }
+  @media only screen and (min-width: 390px) and (max-width: 480px){
+    html{
+        font-size: 25%;
+    }
+    .background{
+  
+        height: 200rem;
+        
+    }
+    nav{
+        height: 18rem;
+        position: fixed ;
+    }
+    nav ul li{
+        margin: 0 1rem;
+        font-size: 2.5rem;
+       
+    }
+    span{
+        font-size: 10rem;
+        display: block;
+    }
+    #element {
+        position: absolute;
+        margin-left: 5rem;
+        top: 125rem;
+        color: white;
+        font-size: 10rem;
+    }
+   
+    .leftsection{
+        width: 90%;
+        margin-top: 50rem;
+        font-size: 8rem;
+    }
+    body {
+        background-image: url(bg.png);
+        background-attachment:scroll;
+        background-repeat: no-repeat;
+        background-size:auto
+    }
+    .btn{
+        margin-top: 40rem;
+        margin-left: 39rem;
+        font-size: 6rem;
+    }
+    
+.aboutme{
+    position: absolute;
+    margin-top: 265rem;
+    text-align: center;
+    width: 90%;
+    margin-left: 2rem;
+    display: block;
+    font-size: 3.9rem;
+}
+.aboutme2{
+    margin-top: 165rem;
+    font-size: 5rem;
+    left: 38rem;
+}
+.pic{
+    margin-top: 205rem;
+    margin-bottom: 50rem;
+    margin-left: 30rem;
+    float: left;
+    display: block;
+}
+footer{
+    top: 385rem;
+    width: 100%;
+    font-size: 3rem;
+}
+.socialmedia {
+    width: 5rem;
+    height: 5rem;
+}
+  }
+
+
+
+  
+ 
+  
+
+
